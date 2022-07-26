@@ -628,7 +628,9 @@ section {
   color: #081D81 ;
 }
 .about .content ul {
-  color:#050F3C ;
+  font-weight: 200;
+  font-size: 18px;
+  color: #081D81 ;
   list-style: none;
   padding: 0;
 }
