@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #050F3C;
+  color: #081D82;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -386,8 +386,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 84px;
 }
 #hero h1 {
+
   margin: 0;
-  font-size: 42px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
