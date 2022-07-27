@@ -88,13 +88,13 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #081D81;
+  border: 6px solid #5846f9;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 0.2s linear infinite;
-  animation: animate-preloader 0.2s linear infinite;
+  -webkit-animation: animate-preloader 0.5s linear infinite;
+  animation: animate-preloader 0.5s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -382,8 +382,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
-  background:url("../img/twa/Slider.svg") center center no-repeat;
+  height: 80vh;
+  background:url("../img/twa/png/Slider.png") center center no-repeat;
   /*background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;*/
   background-size: cover;
 }
@@ -460,6 +460,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1200px) {
   #hero {
     background-attachment: fixed;
+    padding: 1em;
   }
   #hero1 {
     background-attachment: fixed;
@@ -473,6 +474,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   #hero {
     text-align: center;
+    height: 40vh;
+    margin: 1em 0 0 0;
+    padding-bottom: 2em;
   }
   #hero .container, #hero .container-fluid {
     padding-top: 68px;
@@ -520,6 +524,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 26px;
     line-height: 36px;
+    padding: 1em;
   }
   #hero h2 {
     font-size: 18px;
@@ -538,6 +543,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
+    margin-top: 16px;
   }
   #hero1 .hero-img img {
     width: 80%;
@@ -550,6 +556,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 575px), (max-height: 600px) {
   #hero {
     height: auto;
+    height: 55vh;
   }
 
   #hero1 {
@@ -815,7 +822,7 @@ section {
   color: #e3a639;
   font-size: 20px;
   font-weight: 400;
-  margin: 5px 0 10px 60px;
+  margin: 5px 0 10px 10px;
 }
 .features .icon-box i {
   font-size: 48px;
@@ -831,7 +838,7 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 400px;
+  min-height: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -1451,7 +1458,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: url("../img/twa/Fond.svg") center center no-repeat;
+  background: url("../img/twa/png/Fond.png") center center no-repeat;
   background-size: cover;
 }
 #footer .footer-top {
