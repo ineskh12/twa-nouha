@@ -24,7 +24,12 @@ a:hover {
 .nav-tabs {
   align-items: center;
 }
+
+.nav-tabs {
+  text-align:center;
+}
 .nav-tabs .nav-link.active {
+  background-color: transparent;
 font-weight: bold;
   color: #081D81;
   border-radius: 0;
