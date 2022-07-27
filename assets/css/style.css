@@ -83,13 +83,13 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #081D81;
+  border: 6px solid #5846f9;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 0.2s linear infinite;
-  animation: animate-preloader 0.2s linear infinite;
+  -webkit-animation: animate-preloader 0.5s linear infinite;
+  animation: animate-preloader 0.5s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(60deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(60deg);
+    transform: rotate(360deg);
   }
 }
 /*--------------------------------------------------------------
